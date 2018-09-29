@@ -1,0 +1,45 @@
+h1{
+  text-align: center;
+  color: rgb(255,0,0);
+  font-family: 'Eagle Lake', cursive;
+  text-align: center;
+}
+body{
+  color: purple;
+}
+.game-changer{
+  display: none;
+}
+.card{
+  margin-left: 50px;
+  font-family: 'Julee', cursive;
+}
+.game-changer{
+  color:#fff;
+}
+#play{
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  background-color: rgb(255, 0, 0);
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+#dice{
+  margin-left:90px;
+}
+#pig{
+  margin-left: 90px;
+}
+.player{
+  color:rgb(255,0,0);
+}
+#play-game{
+  background-color: rgb(255,0,0);
+  color: #fff;
+
+}
+#mydie{
+  padding-top: 60px;
+}
