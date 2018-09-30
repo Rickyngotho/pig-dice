@@ -5,7 +5,7 @@ h1{
   text-align: center;
 }
 body{
-  color: purple;
+  color: white;
 }
 .game-changer{
   display: none;
@@ -42,4 +42,8 @@ body{
 }
 #mydie{
   padding-top: 60px;
+}
+p {
+  float: right;
+  text: bold;
 }
