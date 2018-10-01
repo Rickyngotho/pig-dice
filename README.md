@@ -9,6 +9,17 @@ This game entails two players where each player keys in his or her name so that 
 * This is the link https://rickyngotho.github.io/pig-dice/
 ## Known Bugs
 There are no known bugs in this application.
+## BDD
+Players input	                                    Output
+The player rolls 1                           	Your score is zero (opponents turn)
+--------------------------------------	-----------------------------------------------------------------
+The player rolls another number             	It's added to your turn total and your turn continues
+--------------------------------------	-----------------------------------------------------------------
+Player decides to hold	                      Your turn total is added to your score and becomes opponents turn
+--------------------------------------	-----------------------------------------------------------------
+First player to score 100 points	            Becomes the winner
+--------------------------------------	-----------------------------------------------------------------
+
 ## Technologies Used
 The technology used is HTML, css, and Javascript.
 ## Support and contact details
