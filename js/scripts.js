@@ -5,12 +5,12 @@ var rollDie = function() {
   return Math.floor(Math.random() * 6) + 1;
 }
 
-function Player(turn) {
+function Player(roll, myscore ,totalscore,turn ,playerName) {
   this.roll = 0;
   this.myscore = 0;
   this.totalscore = 0;
   this.turn = turn;
-  this.playerName;
+  this.playerName= name;
 }
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
